@@ -1,1 +1,6 @@
-node_modules
+csharp.cssjanus/src/CsCssJanus/bin
+csharp.cssjanus/src/CsCssJanus/obj
+csharp.cssjanus/test/CsCssJanus.Test/bin
+csharp.cssjanus/test/CsCssJanus.Test/obj
+csharp.cssjanus/TestResults/
+csharp.cssjanus/*.suo
