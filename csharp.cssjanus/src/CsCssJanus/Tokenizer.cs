@@ -5,6 +5,7 @@
  * @author Trevor Parscal
  * @author Roan Kattouw
  */
+
 /**
  * Ported to C# by "Steven Miller" <mr.steven.miller@gmail.com>
  */
@@ -32,7 +33,7 @@ namespace CsCssJanus
             this.regex = regex;
             this.token = token;
         }
-
+        
         /// <summary>
         /// Replace matching strings with tokens.
         /// </summary>

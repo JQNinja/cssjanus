@@ -1,5 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-/**
+﻿/**
  * Copyright 2008 Google Inc. All Rights Reserved.
  *
  * Tests converting Cascading Style Sheets from LTR to RTL.
@@ -9,6 +8,9 @@
  * @author "Lindsey Simon" <elsigh@google.com>
  * 
  */
+
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 namespace CsCssJanus.Test
 {
     [TestClass]
@@ -602,7 +604,7 @@ namespace CsCssJanus.Test
         {
             Assert.AreEqual(Flip("background-image: linear-gradient(#326cc1, #234e8c)"), "background-image: linear-gradient(#326cc1, #234e8c)");
         }
-
+        
 
 
         /// <summary>
